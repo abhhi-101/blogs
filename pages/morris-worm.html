@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>hacking stories</title>
+        <title>Morris worm</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
@@ -14,7 +14,7 @@
                 <nav><ul>
                     <li><a href="/pages/hannibal-lecter.html">Hannibal Lecter</a></li>
                     <li><a href="/pages/i-love-you.html">I Love You</a></li>
-                    <li><a href="/pages/morris-worm.html">Morris worm</a></li>
+                    <li class="active"><a href="/pages/morris-worm.html">Morris worm</a></li>
                     <li><a href="/pages/hacking-nasa.html">Hacking NASA</a></li>
                     <li><a href="/pages/samys-worm.html">Samy’s worm</a></li>
                     <li><a href="/pages/sony-hack-2014.html">Sony Hack, 2014</a></li>
@@ -24,18 +24,26 @@
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
-    <h2>Pages</h2>
-    <ul>
-        <li><a href="/pages/hannibal-lecter.html">Hannibal Lecter</a></li>
-        <li><a href="/pages/i-love-you.html">I Love You</a></li>
-        <li><a href="/pages/morris-worm.html">Morris worm</a></li>
-        <li><a href="/pages/hacking-nasa.html">Hacking NASA</a></li>
-        <li><a href="/pages/samys-worm.html">Samy’s worm</a></li>
-        <li><a href="/pages/sony-hack-2014.html">Sony Hack, 2014</a></li>
-        <li><a href="/pages/trojan-horse.html">Trojan Horse</a></li>
-        <li><a href="/pages/twitter-hacked.html">Twitter hacked</a></li>
-        <li><a href="/pages/wanna-cry.html">Wanna Cry</a></li>
-    </ul>
+    <h1 class="entry-title">Morris worm</h1>
+    
+    <blockquote>
+<p>Worms everywhere</p>
+<blockquote>
+<p>-- by unpatched system</p>
+</blockquote>
+</blockquote>
+<p><img alt="Morris" src="../images/morris.jpg"></p>
+<p>The Morris Worm was a self-replicating computer program (worm) written by Robert Tappan Morris. He was a student at Cornell University. He released the computer worm from one of the MIT’s computer on <em>November 2, 1988</em>.</p>
+<p>According to Morris, the purpose of the worm was to gauge the size of the precursor “Internet” of the time – ARPANET – although it unintentionally caused denial-of-service (DoS) for around 10% of the 60,000 machines connected to ARPANET in 1988.
+The worm spread by exploiting vulnerabilities in UNIX send mail, finger, and rsh/rexec as well as by guessing weak passwords. Yes, Unix was vulnerable too.</p>
+<h3>How it worked?</h3>
+<p>Before spreading to a new machine, the Morris Worm checked if the machine had already been infected and was running a Morris Worm process. If a target machine had already been infected, the Morris Worm would re-infect it 1 in 7 times. This practice of “1-in-7 re-infection” ensured that a user could not completely avoid a Morris Worm infection by creating a fake Morris Worm process to pretend his or her machine was already infected. It also, caused some users’ machines to be infected many times – once too many Morris Worm processes were running on a target machine it would run out of computing resources and begin to malfunction.</p>
+<p>The United States vs Morris (1991) court case resulted in the first conviction under the 1986 Computer Fraud and Abuse Act, with Morris receiving a sentence of three years in prison, 400 hours of community service and a $10,000 fine. It was easy back then.</p>
+<p>The floppy containing Source code of the Morris Worm is kept in a Computer History Museum, what an achievement, isn’t it?</p>
+<p><img alt="floppy with virus" src="../images/source.webp"></p>
+<p>That’s it for today, see you in the next blog, till that have a good day and babye!!</p>
+<hr>
+<p>&copy; hackkeencyber</p>
 </section>
         <section id="extras" class="body">
                 <div class="blogroll">
