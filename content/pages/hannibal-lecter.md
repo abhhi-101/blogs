@@ -15,6 +15,7 @@ Summary: Hannibal Lecter
 Hey everyone, In today’s blog we will see “Hannibal Lecter” of Computer Crime.
 
 ![Kevin](../images/image-9.png)
+
 A former “black-hat” hacker Kevin Poulsen aka “Dark Dante” is famous for the hacking stunt he made in order to win a price from the telephone lines of Los Angeles radio station KIIS-FM. By the Way, the prize was worthy enough, see below
 
 ![car price](../images/porsche-911.jpg)

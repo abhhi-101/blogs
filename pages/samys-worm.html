@@ -12,11 +12,21 @@
         <header id="banner" class="body">
                 <h1><a href="/">Hacking Stories</a></h1>
                 <nav><ul>
+                    <li><a href="/pages/adrian-lamo.html">Adrian Lamo</a></li>
                     <li><a href="/pages/hannibal-lecter.html">Hannibal Lecter</a></li>
+                    <li><a href="/pages/hospital-under-attack.html">Hospital Under attack</a></li>
+                    <li><a href="/pages/humans-the-weakest-in-chain-2.html">Humans, the weakest in chain 2</a></li>
+                    <li><a href="/pages/humans-the-weakest-in-chain-3.html">Humans, the weakest in chain 3</a></li>
+                    <li><a href="/pages/humans-the-weakest-in-chain.html">Humans, the weakest in chain</a></li>
                     <li><a href="/pages/i-love-you.html">I Love You</a></li>
+                    <li><a href="/pages/kevin-mitnick.html">Kevin Mitnick(GOAT)</a></li>
+                    <li><a href="/pages/maksym-popov.html">Maksym-Popov</a></li>
                     <li><a href="/pages/morris-worm.html">Morris worm</a></li>
                     <li><a href="/pages/hacking-nasa.html">Hacking NASA</a></li>
+                    <li><a href="/pages/phishing-stories.html">Phishing Stories</a></li>
                     <li class="active"><a href="/pages/samys-worm.html">Samy’s worm</a></li>
+                    <li><a href="/pages/scams-on-social-media.html">Scams on Social Media</a></li>
+                    <li><a href="/pages/social-media.html">Social Media</a></li>
                     <li><a href="/pages/sony-hack-2014.html">Sony Hack, 2014</a></li>
                     <li><a href="/pages/trojan-horse.html">Trojan Horse</a></li>
                     <li><a href="/pages/twitter-hacked.html">Twitter hacked</a></li>
@@ -33,28 +43,27 @@
 </blockquote>
 </blockquote>
 <h2>Intro</h2>
-<p><img alt="My Space logo" src="../images/myspace.webp">
-<em>My Space 2005</em></p>
+<p><img alt="My Space logo" src="../images/myspace.webp"></p>
+<p><em>My Space 2005</em></p>
 <p>It was early 2005, when the internet just started its life in our world. A famous social-networking site called “MySpace” was one of the famous among the youngsters just like today’s Facebook and Instagram. The race of Increasing of Followers and getting famous was each dream just like today. The Incident that caught everyone’s eye was the famous “the Samy worm”, lets break this down a bit before going further.</p>
 <p>Samy Kamkar aka Samy was among the average guy just like one of us when it came to academics and daily life, but when the topic comes about computers and internet this guy can blowup your mind with his skills and Knowledge, but one remember “With great powers comes great responsibilities” unfortunately samy wasn’t aware of this quote.</p>
-<p><img alt="Samy" src="../images/samy.jpg">
-<em>Samy Kamkar aka Samy</em></p>
-<hr>
+<p><img alt="Samy" src="../images/samy.jpg"></p>
+<h2><em>Samy Kamkar aka Samy</em></h2>
 <h2>The attack</h2>
 <p>It was 2005 ordinary day when samy was surfing around MySpace website, suddenly samy discovered a weird behavior with the bio section of his profile on MySpace, he was able to inject HTML into his bio section. He immediately checked if it is vulnerable to XSS and bingo it was (if you don’t know what xss is don’t worry for now, just follow along)</p>
-<p><img alt="attack" src="../images/samyismyhero.png">
-<em>Attack by Samy</em></p>
+<p><img alt="attack" src="../images/samyismyhero.png"></p>
+<p><em>Attack by Samy</em></p>
 <p>Samy then injected the payload, this payload was simple, not so dangerous but very effective. The payload worked as follow: When someone visited Samy’s profile the payload gets activated and “but most of all, samy is my hero” would get reflected in visitors bio along with the adding samy as their friend, also the same payload would get injected into the visitors profile. 
 Whenever some other user visits the visitors profile, the same cycle would go on &amp; on. Within an hour of releasing the payload, Samy had Million of friend requests making him overnight star.</p>
-<p><img alt="users bio" src="../images/mrequests.jpg">
-<em>Attack exploited</em></p>
+<p><img alt="users bio" src="../images/mrequests.jpg"></p>
+<p><em>Attack exploited</em></p>
 <p>Things got worst when Samy had Tens of Million of Friends requests, this made him feel scared, so he did the obvious thing, deleted his profile. Everything should have been well by now, but hell NO, with his account being deleted, the complete website was down, this might had removed hell out of Samy.</p>
 <p>After couple of months the website was again restored, up and running, but this was not over yet, Smay was raided by the United States Secret Service and Electronic Crimes Task Force in 2006 for releasing the worm. He entered a plea agreement on January 31, 2007 to a felony charge. The action resulted in Smay being sentenced to three years’ probation with only one computer and no use of internet, 90 days’ community service, and $15,000–$20,000 USD.</p>
 <hr>
 <h2>Learnings</h2>
 <p>Here the term worm is that the payload goes on attacking user profile and keeps on increasing like worm. So now, let us understand what made the attack possible. When website allows HTML to be injected, it also allows JAVASCRIPT (which is responsible of all the actions performed on website) this gives rise to Cross Site Scripting aka XSS to executed on the website, due to which attacker can perform actions same as user could have done by clicking and typing. What makes XSS so Scary the it can even Steal Live Cookies of the User, once the attacker has the users cookies, he can be the User and perform actions on behalf of user.</p>
-<p><img alt="xss" src="../images/xss.png">
-<em>XSS - Cross site Scripting</em></p>
+<p><img alt="xss" src="../images/xss.png"></p>
+<p><em>XSS - Cross site Scripting</em></p>
 <p>What makes Samy worm innocent is that he didn’t steal any cookie, rather he just forced user to perform some action. This worm would have been worst if Samy would have stole the users cookie, he could have been able to read all the private messages and get access to users personal data.</p>
 <hr>
 <p>I have created this blogging website for learning and growing together, I will be posting hacking news &amp; tutorials and lot more. Follow this blog to get the latest updates, until next time, have a good day 🙂</p>
