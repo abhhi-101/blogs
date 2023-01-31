@@ -13,7 +13,7 @@ In this blog post, I will demonstrate the step-by-step process of creating your 
 ## Installing required software
 
 We need to install some softwares inorder to create our pipeline, so first we will install Pelican, make sure you have Python installed
-Open your Terminal in Linux or CMD in Windows & Enter following command
+Open your Terminal in Linux or  CMD in Windows & Enter following command
 
 `python -m pip install "pelican[markdown]"`
 
