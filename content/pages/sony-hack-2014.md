@@ -47,7 +47,7 @@ They Obviously did ignored the Message for given deadline & the Consequences wer
 
 ---
 
-## Learningsaaaa
+## Learningsaaaaaa
 
 At the end many hackers were caught and many were blamed including hacker responsible for “WannaCry virus”.
 North Korean people raised the protest for ban of Movie saying “Their leader already treats them as slaves, and due to release of Movie he would hares them more” but UN refused to the request saying “This is not how Freedom works”
